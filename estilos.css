@@ -1,0 +1,290 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(129, 122, 122, 0.425);
+}
+.conteiner {
+  display: grid;
+  grid-template-columns: 1 100vh;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "headerIndex"
+    "mainIndex"
+    "divIndex"
+    "sectionIndex"
+    "footer";
+}
+.headerIndex {
+  grid-area: headerIndex;
+}
+.mainIndex {
+  grid-area: mainIndex;
+}
+.divIndex {
+  grid: divIndex;
+}
+.sectionIndex {
+  grid: sectionIndex;
+}
+
+footer {
+  grid-area: footer;
+}
+.headerIndex {
+  background-image: url(/imagenes/dionisio.png);
+  display: flex;
+  justify-content: center;
+  border: dotted 10px rgba(197, 8, 8, 0.555);
+  width: auto;
+  }
+
+.sinSubrayado {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+li {
+  background-color: snow;
+  display: flex;
+  flex-direction: row;
+  border: black solid;
+  height: 45px;
+  width: 250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+  padding: 10px;
+}
+
+.imagenesC {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.divIndex {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.instagramCentrar {
+  display: flex;
+  width: 10px;
+  align-items: center;
+  margin: 50px 20px;
+  padding: 10px;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: cursive;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.colorPromociones {
+  background-color: rgba(143, 122, 122, 0.425);
+}
+.headerPromociones {
+  background-image: url(/imagenes/dionisio.png);
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  border: dotted 10px rgba(197, 8, 8, 0.555);
+}
+.moverCentro2 {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+h2 {
+  color: brown;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.classPromociones {
+  font-size: 30px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid whitesmoke;
+  align-items: center;
+}
+
+.parrafoPromociones {
+  display: flex;
+  justify-content: left;
+  margin: 50px 20px;
+  padding: 10px;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.headerProductos {
+  background-image: url(/imagenes/dionisio.png);
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  border: dotted 10px rgba(197, 8, 8, 0.555);
+}
+
+.navProductos {
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+  font-size: auto;
+  display: flex;
+  justify-content: space-between;
+  border: solid 3px black;
+}
+.sectionProductos {
+  padding: 5px;
+  height: auto;
+  font-size: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.classProductos {
+  display: flex;
+  justify-content: left;
+  margin: 50px 20px;
+  padding: 10px;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.mainNosotros {
+  display: grid;
+  grid-template-columns: 1 auto;
+  grid-template-rows: 2 auto;
+  grid-template-areas:
+    "listaOr"
+    "sectionNosotros";
+}
+.listaOr {
+  grid-area: listaOr;
+}
+.secionNosotros {
+  grid-area: sectionNosostros;
+}
+.headerNosotros {
+  background-image: url(/imagenes/dionisio.png);
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  border: dotted 10px rgba(197, 8, 8, 0.555);
+}
+
+.classParrafo {
+  border: solid 3px black;
+}
+.footerNosotros {
+  display: flex;
+  justify-content: left;
+  margin: 50px 20px;
+  padding: 10px;
+}
+
+.bodyContacto {
+  background-color: rgba(143, 122, 122, 0.425);
+}
+.headerContacto {
+  background-image: url(/imagenes/dionisio.png);
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  border: dotted 10px rgba(197, 8, 8, 0.555);
+}
+.ubicacionContacto {
+  height: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.iframeContacto {
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  .conteiner {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "headerIndex"
+      "mainIndex"
+      "divIndex"
+      "sectionIndex"
+      "footer";
+  }
+
+  .headerIndex {
+    grid-area: headerIndex;
+  }
+  .mainIndex {
+    grid-area: mainIndex;
+  }
+  .divIndex {
+    grid: divIndex;
+  }
+  .sectionIndex {
+    grid: sectionIndex;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+}
+
+@media (max-width: 340px) {
+  .conteiner {
+    display: grid;
+    grid-template-columns: 1 100vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "headerIndex"
+      "mainIndex"
+      "divIndex"
+      "sectionIndex"
+      "footer";
+  }
+
+  .imagenesC {
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+    align-items: flex-start;
+  }
+  .divIndex {
+    font-size: 8px;
+    border: rgba(197, 8, 8, 0.555) solid;
+  }
+  .sinSubrayado {
+    font-size: 15px;
+  }
+  li {
+    width: 120px;
+  }
+}
