@@ -6,6 +6,7 @@
 
 body {
   background-color: rgba(129, 122, 122, 0.425);
+  background-image: linear-gradient(to left, rgba(129, 122, 122, 0.425), rgb(236, 229, 229) )
 }
 .conteiner {
   display: grid;
