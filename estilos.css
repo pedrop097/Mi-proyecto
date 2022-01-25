@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgba(129, 122, 122, 0.425);
-  background-image: linear-gradient(to left, rgba(129, 122, 122, 0.425), rgb(236, 229, 229) )
-}
 .conteiner {
   display: grid;
   grid-template-columns: 1 100vh;
@@ -117,8 +113,15 @@ h2 {
   font-size: 40px;
 }
 
-.classPromociones {
+.promociones2{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+}
+.classPromociones{
   font-size: 30px;
+  width: 600px;
   background-color: brown;
   display: flex;
   flex-direction: column;
@@ -289,3 +292,58 @@ h2 {
     width: 120px;
   }
 }
+@media (max-width: 1024px){
+.navProductos{
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items:center;
+   }
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(129, 122, 122, 0.425);
+  background-image: linear-gradient(to left, rgba(129, 122, 122, 0.425), rgb(236, 229, 229))
+}
+
+h4:hover{
+  transform: scale(1.5);
+  transition: 2s all;
+}
+li:hover{
+  transform:translate(100px);
+  transition:all 1.5s ease;
+}
+.imagenesVinos:hover{
+  transform: translate(20px);
+}
+.imagenesDeli:hover{
+  transform: translate(20px);
+  }
+.imagenesE:hover{
+  transform: rotate(45deg) scale(1.5) translate(50px);
+}
+h1:hover {
+  animation: changue-color 3s;
+}
+@keyframes changue-color{
+  30% {
+    color: rgb(156, 147, 147);
+  }
+  30%{
+    transform: scale(1.5);
+    color: rgb(190, 141, 141);
+  }
+  40%{
+    color: rgb(202, 201, 200);
+  }
+}
+
+
