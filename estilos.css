@@ -301,6 +301,16 @@ h2 {
   align-items:center;
    }
 }
+@media (max-width: 320px){
+  .classPromociones{
+    display: flex;
+    width: 200px;
+    height: auto;
+    flex-direction: column;
+    align-items:center;
+     }
+  }
+  
 
 * {
   margin: 0%;
